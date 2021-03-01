@@ -561,9 +561,41 @@ body {
                         }
                     }
 
+                    p.card-info {
+                        position:relative;
+                        padding:10px 0 10px 110px;
+                        min-height:103px;
+                        word-break:keep-all;
+                        border-top:2px solid #333;
+                        border-bottom:1px solid #ccc;
+                        border-left:0;
+                        border-right:0;
+                        
+                        i {
+                            position:absolute;
+                            left:0;
+                            top:10px;
+                            width:100px;
+                            height:80px;
+                            background:#009999;
+                            color:#fff;
+                            text-align:center;
+                            font-size:56px;
+                            border-radius:10px;
+                            padding-top:12px;
+                        }
+                    }
+
                     dl {
                         margin:0 0 20px;
                         padding:0;
+
+                        &.card {
+                            background:#efefef;
+                            border:1px solid #ccc;
+                            border-radius:10px;
+                            padding:4px 20px 12px;
+                        }
 
                         dt {
 
@@ -603,6 +635,69 @@ body {
                                     border-radius:0 5px 5px 0;
 
                                 }
+                            }
+
+                            &.card-num {
+                                font-size:0;
+                                text-align:center;
+
+                                u {
+                                    display:inline-block;
+                                    text-decoration:none;
+                                    font-size:1rem;
+                                    width:10px;
+                                    line-height:42px;
+                                    vertical-align:top;
+                                }
+
+                                input,
+                                button {
+                                    font-size:1rem;
+                                    width:calc((100% - 35px) / 5);
+                                    background:#fff;
+                                    vertical-align:top;
+                                    padding:0 4px;
+                                    text-align:center;
+                                }
+
+                                input {
+                                    border:none;
+                                    border-radius:0;
+                                    border-bottom:2px solid #000;
+                                }
+
+                                button {
+                                    background:#333;
+                                    height:42px;
+                                    color:#fff;
+                                    border:none;
+                                    margin-left:5px;
+                                    border-radius:5px;
+                                    line-height:1.2;
+
+                                }
+                            }
+
+                            &.card-year {
+                                font-size:0;
+
+
+                                u {
+                                    text-align:center;
+                                    display:inline-block;
+                                    text-decoration:none;
+                                    font-size:1rem;
+                                    width:10px;
+                                    line-height:42px;
+                                    vertical-align:top;
+                                }
+                                
+                                input {
+                                    width:120px;
+                                    background:#fff;
+                                    max-width:calc((100% - 10px) / 2);
+                                }
+
                             }
 
                         }

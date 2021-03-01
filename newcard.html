@@ -85,21 +85,44 @@
 
             <div class="container">
                <h2>신규카드 등록</h2>
-
-               <h3>기존카드 정보</h3>
-               <dl>
-                    <dt><label for="">아이디</label></dt>
-                    <dd><input type="text" placeholder="0000-0000-0000-0000"></dd>
-
-                </dl>
+               <p class="card-info">
+                <i class='bx bxs-battery-charging'></i>
+                   고객님께서 등록하신 카드정보로 1개월에 한번씩 충전비용이 정기 청구됩니다.
+               </p>
 
                 <h3>신규카드 정보</h3>
-                <dl>
+                <dl class="card">
                      <dt><label for="">카드번호</label></dt>
-                     <dd class="check">
-                         <input type="text" placeholder="'-' 를 제외하고 숫자만 입력하세요"><button>중복 체크</button></dd>
+                     <dd class="card-num">
+                         <input type="text" placeholder="0000">
+                         <u>-</u>
+                         <input type="text" placeholder="0000">
+                         <u>-</u>
+                         <input type="text" placeholder="0000">
+                         <u>-</u>
+                         <input type="text" placeholder="0000">
+                         
+                         <button>중복 체크</button>
+                    </dd>
+                    <dt><label for="">유효기간</label></dt>
+                    <dd class="card-year">
+                        <input type="text" placeholder="년도입력 : YY">
+                        <u>/</u>
+                        <input type="text" placeholder="월 입력 : MM">
+                   </dd>
  
                  </dl>
+                 <dl>
+                      <dt><label for="">카드 비밀번호 앞 2자리</label></dt>
+                      <dd>
+                          <input type="text" placeholder="비밀번호 앞 2자리를 입력하세요">
+                     </dd>
+                     <dt><label for="">생년월일 6자리 (사업자는 사업자번호 10자리)</label></dt>
+                     <dd>
+                         <input type="text" placeholder="비밀번호 앞 2자리를 입력하세요">
+                    </dd>
+  
+                  </dl>
  
 
 
