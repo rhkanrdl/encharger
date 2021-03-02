@@ -709,6 +709,202 @@ body {
             }
 
 
+            section.detail {
+
+                text-align:center;
+                padding:0 0 30px;
+
+                div.container {
+
+                    h2 {
+                        text-align:center;
+                        margin:30px 0;
+                        font-size:26px;
+                    }
+
+                    h3 {
+                        font-size:18px;
+                        font-weight:600;
+                        margin:20px 0 6px;
+                        color:#0096DF;
+                    }
+
+                    p.text {
+                        margin:0;
+                        word-break:keep-all;
+                    }
+
+                    div.head-info {
+                        position:relative;
+                        padding:10px 0 20px;
+                        margin-bottom:30px;
+                        min-height:140px;
+                        word-break:keep-all;
+                        border-top:2px solid #333;
+                        border-bottom:5px solid #eee;
+                        border-left:0;
+                        border-right:0;
+                        
+                        i {
+                            width:100%;
+                            top:10px;
+                            height:120px;
+                            background:#009999;
+                            color:#fff;
+                            text-align:center;
+                            font-size:56px;
+                            padding-top:32px;
+                        }
+
+                        ul {
+                            list-style:none;
+                            margin:0;
+                            padding:20px 0 10px;
+
+                            li {
+                                text-align:center;
+                                font-size:12px;
+                                &.strong {
+                                    font-size:24px;
+                                    font-weight:800;
+                                }
+                            }
+                        }
+
+                        button.big {
+                            width:100%;
+                            border:none;
+                            background:#333;
+                            color:#fff;
+                            height:46px;
+                            font-size:16px;
+                        }
+                    }
+
+                    dl {
+                        margin:0 0 20px;
+                        padding:0;
+
+                        &.card {
+                            background:#efefef;
+                            border:1px solid #ccc;
+                            border-radius:10px;
+                            padding:4px 20px 12px;
+                        }
+
+                        dt {
+
+                            font-weight:400;
+                            margin:16px 0 8px;
+                        }
+
+                        dd {
+                            margin:0;
+
+                            input[type="text"],
+                            input[type="password"] {
+                                width:100%;
+                                height:42px;
+                                font-size:14px;
+                                margin-bottom:6px;
+                                border:1px solid #ccc;
+                                border-radius:5px;
+                                padding:0 10px;
+                                background:#f4f4f4;
+                                outline:none;
+                            }
+                            
+                            &.check {
+                                input {
+                                    width:calc(100% - 100px);
+                                    border-radius:5px 0 0 5px;
+                                    border-right:none;
+                                }
+
+                                button {
+                                    background:#333;
+                                    width:100px;
+                                    height:42px;
+                                    color:#fff;
+                                    border:none;
+                                    border-radius:0 5px 5px 0;
+
+                                }
+                            }
+
+                            &.card-num {
+                                font-size:0;
+                                text-align:center;
+
+                                u {
+                                    display:inline-block;
+                                    text-decoration:none;
+                                    font-size:1rem;
+                                    width:10px;
+                                    line-height:42px;
+                                    vertical-align:top;
+                                }
+
+                                input,
+                                button {
+                                    font-size:1rem;
+                                    width:calc((100% - 35px) / 5);
+                                    background:#fff;
+                                    vertical-align:top;
+                                    padding:0 4px;
+                                    text-align:center;
+                                }
+
+                                input {
+                                    border:none;
+                                    border-radius:0;
+                                    border-bottom:2px solid #000;
+                                }
+
+                                button {
+                                    background:#333;
+                                    height:42px;
+                                    color:#fff;
+                                    border:none;
+                                    margin-left:5px;
+                                    border-radius:5px;
+                                    line-height:1.2;
+
+                                }
+                            }
+
+                            &.card-year {
+                                font-size:0;
+
+
+                                u {
+                                    text-align:center;
+                                    display:inline-block;
+                                    text-decoration:none;
+                                    font-size:1rem;
+                                    width:10px;
+                                    line-height:42px;
+                                    vertical-align:top;
+                                }
+                                
+                                input {
+                                    width:120px;
+                                    background:#fff;
+                                    max-width:calc((100% - 10px) / 2);
+                                }
+
+                            }
+
+                        }
+                    }
+
+    
+                }
+
+            }
+
+
+
 
             section.main {
                 text-align:center;

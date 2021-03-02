@@ -1049,6 +1049,186 @@ body.site div#content section.member div.container dl dd.card-year input {
   max-width: calc((100% - 10px) / 2);
 }
 
+body.site div#content section.detail {
+  text-align: center;
+  padding: 0 0 30px;
+}
+
+body.site div#content section.detail div.container h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 26px;
+}
+
+body.site div#content section.detail div.container h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 6px;
+  color: #0096DF;
+}
+
+body.site div#content section.detail div.container p.text {
+  margin: 0;
+  word-break: keep-all;
+}
+
+body.site div#content section.detail div.container div.head-info {
+  position: relative;
+  padding: 10px 0 20px;
+  margin-bottom: 30px;
+  min-height: 140px;
+  word-break: keep-all;
+  border-top: 2px solid #333;
+  border-bottom: 5px solid #eee;
+  border-left: 0;
+  border-right: 0;
+}
+
+body.site div#content section.detail div.container div.head-info i {
+  width: 100%;
+  top: 10px;
+  height: 120px;
+  background: #009999;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  padding-top: 32px;
+}
+
+body.site div#content section.detail div.container div.head-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 10px;
+}
+
+body.site div#content section.detail div.container div.head-info ul li {
+  text-align: center;
+  font-size: 12px;
+}
+
+body.site div#content section.detail div.container div.head-info ul li.strong {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+body.site div#content section.detail div.container div.head-info button.big {
+  width: 100%;
+  border: none;
+  background: #333;
+  color: #fff;
+  height: 46px;
+  font-size: 16px;
+}
+
+body.site div#content section.detail div.container dl {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+body.site div#content section.detail div.container dl.card {
+  background: #efefef;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 4px 20px 12px;
+}
+
+body.site div#content section.detail div.container dl dt {
+  font-weight: 400;
+  margin: 16px 0 8px;
+}
+
+body.site div#content section.detail div.container dl dd {
+  margin: 0;
+}
+
+body.site div#content section.detail div.container dl dd input[type="text"],
+body.site div#content section.detail div.container dl dd input[type="password"] {
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  background: #f4f4f4;
+  outline: none;
+}
+
+body.site div#content section.detail div.container dl dd.check input {
+  width: calc(100% - 100px);
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+body.site div#content section.detail div.container dl dd.check button {
+  background: #333;
+  width: 100px;
+  height: 42px;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+body.site div#content section.detail div.container dl dd.card-num {
+  font-size: 0;
+  text-align: center;
+}
+
+body.site div#content section.detail div.container dl dd.card-num u {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 10px;
+  line-height: 42px;
+  vertical-align: top;
+}
+
+body.site div#content section.detail div.container dl dd.card-num input,
+body.site div#content section.detail div.container dl dd.card-num button {
+  font-size: 1rem;
+  width: calc((100% - 35px) / 5);
+  background: #fff;
+  vertical-align: top;
+  padding: 0 4px;
+  text-align: center;
+}
+
+body.site div#content section.detail div.container dl dd.card-num input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #000;
+}
+
+body.site div#content section.detail div.container dl dd.card-num button {
+  background: #333;
+  height: 42px;
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+  border-radius: 5px;
+  line-height: 1.2;
+}
+
+body.site div#content section.detail div.container dl dd.card-year {
+  font-size: 0;
+}
+
+body.site div#content section.detail div.container dl dd.card-year u {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 10px;
+  line-height: 42px;
+  vertical-align: top;
+}
+
+body.site div#content section.detail div.container dl dd.card-year input {
+  width: 120px;
+  background: #fff;
+  max-width: calc((100% - 10px) / 2);
+}
+
 body.site div#content section.main {
   text-align: center;
   padding: 30px 0;
